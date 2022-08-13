@@ -1,0 +1,28 @@
+#myTableData {
+    position: relative;
+    left: 0; 
+    right: 0; 
+    width: 80%; /* Need a specific value to work */
+    margin: auto;
+    margin-top: 2%;
+}
+
+.result {
+    width: 30px;
+}
+
+#pairingsBtn {
+    position: relative;
+    margin-top: 25px;
+
+}
+
+.error {
+    background-color: #fde8ec;
+    padding: 10px;
+    display: none;
+}
+
+.error.display-error {
+    display: block;
+}

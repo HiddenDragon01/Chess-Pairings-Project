@@ -1,0 +1,22 @@
+#myTableData {
+    margin-top: 30px;
+    position: relative;
+    left: 0; 
+    right: 0; 
+    width: 100%; /* Need a specific value to work */
+}
+
+#pairingsBtn {
+    position: relative;
+    margin-top: 25px;
+
+}
+
+.finalStandings {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+    visibility: hidden;
+}

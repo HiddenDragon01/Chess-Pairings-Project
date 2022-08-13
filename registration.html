@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chess Pairings Project</title>
+<link rel="stylesheet" type="text/css" href="registration.css">
+</head>
+<body>
+
+<h1 class="pairings">Player Signup List</h1>
+<input type="submit" id="startButton" value="Start Tournament" onclick="return startTournament();">
+<p class="error start-error"></p>
+
+<table id="myTableData" border="1" cellpadding="2">
+  <tr>
+      <td>&nbsp;</td>
+      <td><b>First Name</b></td>
+      <td><b>Last Name</b></td>
+      <td><b>Rating</b></td>
+  </tr>
+</table>
+
+<form id = "myForm">
+    <label id="fname">First name:</label>
+    <input type="text" name="fname" class="fnameText" required>
+    <p class="error fname-error"></p>
+
+    <label id="lname">Last name:</label>
+    <input type="text" name="lname" class="lnameText" required> 
+    <p class="error lname-error"></p>
+
+    <label id="rating">Rating:</label>
+    <input type="text" name="rating" class="ratText" required>
+    <p class="error rating-error"></p>
+
+    <input type="submit" id="save" value="Add Player" onclick="return addRow();">
+  </form>
+
+<label id="rounds">Rounds:</label>
+<input type="text" name="rounds" class="roundsText" value="4">
+
+<script src="sorter.js"></script>
+<script src="errorhandler.js"></script>
+<script src="player.js"></script> 
+<script src="registration.js"></script>
+
+
+</body>
+</html>

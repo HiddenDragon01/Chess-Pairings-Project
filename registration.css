@@ -1,0 +1,48 @@
+.pairings {
+    text-align: center;
+}
+
+#fname, #lname, #rating, #submit, #save {
+    display: block;
+    margin-top: 10px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+
+}
+
+#startButton {
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+#myTableData {
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 40%; /* Need a specific value to work */
+}
+
+.error {
+    background-color: #fde8ec;
+    padding: 10px;
+    display: none;
+}
+
+.error.display-error {
+    display: block;
+}
+
+.roundsText {
+    margin: auto;
+    margin-top: 15px;
+}
+
+#rounds {
+    text-align: center;
+}
